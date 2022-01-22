@@ -67,6 +67,7 @@ public class SQLiteViewer extends JFrame {
         fileNameTextField = new JTextField();
         fileNameTextField.setName("FileNameTextField");
         fileNameTextField.setPreferredSize(new Dimension(575, 30));
+        fileNameTextField.setEditable(false);
         openFilePanel.add(fileNameTextField);
 
         openFileButton = new JButton();
